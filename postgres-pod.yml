@@ -12,5 +12,4 @@ spec:
     image: postgres:12
     ports:
     - containerPort: 5432
-    restart: always
-    #command: [ "/bin/bash", "-ce", "tail -f /dev/null" ]
+    command: [ "/bin/bash", "-ce", "tail -f /dev/null" ]
